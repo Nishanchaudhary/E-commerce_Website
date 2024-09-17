@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import useProducts from "../hooks/useProducts.js";
-import Card from "../components/Card";
+import Card from "../Components/Card";
 import "./home.css";
 
 function Home() {
