@@ -36,7 +36,7 @@ function Profile() {
 
   return (
     <>
-      <nav className="bg-gray-300 shadow-md ">
+      <nav className="bg-gray-300 shadow-md fixed top-0 w-full z-10">
         <div className="container mx-auto px-6 py-3 md:flex md:justify-between md:items-center">
           <div className="flex items-center justify-between">
             <Link to="/">
@@ -112,8 +112,8 @@ function Profile() {
         </div>
       </nav>
 
-      <div className="max-w-2xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden mt-10">
-        <div className="p-6">
+      <div className="max-w-2xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden mt-[140px]">
+        <div className="p-[30px]">
           <div className="text-center p-11 ">
             <img
               className="w-24 h-24 rounded-full mx-auto -mt-16 border-4 border-blue-500 shadow-md"

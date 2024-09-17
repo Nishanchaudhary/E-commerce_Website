@@ -74,7 +74,7 @@ const UserProfile = () => {
 
   return (
     <>
-      <nav className="bg-gray-300 shadow-md ">
+      <nav className="bg-gray-300 shadow-md fixed top-0 w-full z-10">
         <div className="container mx-auto px-6 py-3 md:flex md:justify-between md:items-center">
           <div className="flex items-center justify-between">
             <Link to="/">
@@ -150,7 +150,7 @@ const UserProfile = () => {
         </div>
       </nav>
 
-      <div className="max-w-2xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden mt-10">
+      <div className="max-w-2xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden mt-[140px]">
         <div className="p-6">
           <div className="mt-2 text-center text-2xl ">
             <h2 className="block text-gray-700 font-bold mb-2"   >User Profile</h2>
