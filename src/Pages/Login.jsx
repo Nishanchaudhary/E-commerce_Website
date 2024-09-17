@@ -26,6 +26,8 @@ function Login() {
           className="bg-white p-6 rounded-md shadow-md w-full max-w-sm"
           onSubmit={handleSubmit(onSubmit)}
         >
+        <p>username: mor_2314<br />
+        password: 83r5^_</p>
           <div className="mt-2 text-center text-2xl ">
             <h2 className="block text-gray-700 font-bold mb-2">Login page</h2>
           </div>
